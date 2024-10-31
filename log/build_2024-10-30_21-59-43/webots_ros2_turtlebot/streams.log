@@ -1,0 +1,47 @@
+[2.218s] Invoking command in '/home/emannavarro/slam-kalman-localization/src/webots_ros2/webots_ros2_turtlebot': AMENT_PREFIX_PATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_control:/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver:/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs:/home/emannavarro/slam-kalman-localization/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_control:/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver:/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs LD_LIBRARY_PATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_control/lib:/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/lib:/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/emannavarro/slam-kalman-localization/build/webots_ros2_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emannavarro/slam-kalman-localization/install/webots_ros2_turtlebot/lib/python3.10/site-packages:/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/emannavarro/slam-kalman-localization/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/webots_ros2_turtlebot build --build-base /home/emannavarro/slam-kalman-localization/build/webots_ros2_turtlebot/build install --record /home/emannavarro/slam-kalman-localization/build/webots_ros2_turtlebot/install.log --single-version-externally-managed install_data
+[2.583s] running egg_info
+[2.584s] creating ../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info
+[2.584s] writing ../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/PKG-INFO
+[2.584s] writing dependency_links to ../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/dependency_links.txt
+[2.584s] writing entry points to ../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/entry_points.txt
+[2.585s] writing requirements to ../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/requires.txt
+[2.585s] writing top-level names to ../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/top_level.txt
+[2.585s] writing manifest file '../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/SOURCES.txt'
+[2.587s] reading manifest file '../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/SOURCES.txt'
+[2.587s] writing manifest file '../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/SOURCES.txt'
+[2.588s] running build
+[2.588s] running build_py
+[2.588s] creating /home/emannavarro/slam-kalman-localization/build/webots_ros2_turtlebot/build
+[2.588s] creating /home/emannavarro/slam-kalman-localization/build/webots_ros2_turtlebot/build/lib
+[2.588s] creating /home/emannavarro/slam-kalman-localization/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot
+[2.589s] copying webots_ros2_turtlebot/plugin_example.py -> /home/emannavarro/slam-kalman-localization/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot
+[2.589s] copying webots_ros2_turtlebot/__init__.py -> /home/emannavarro/slam-kalman-localization/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot
+[2.589s] running install
+[2.589s] running install_lib
+[2.590s] creating /home/emannavarro/slam-kalman-localization/install/webots_ros2_turtlebot/lib/python3.10/site-packages/webots_ros2_turtlebot
+[2.591s] copying /home/emannavarro/slam-kalman-localization/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot/plugin_example.py -> /home/emannavarro/slam-kalman-localization/install/webots_ros2_turtlebot/lib/python3.10/site-packages/webots_ros2_turtlebot
+[2.591s] copying /home/emannavarro/slam-kalman-localization/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot/__init__.py -> /home/emannavarro/slam-kalman-localization/install/webots_ros2_turtlebot/lib/python3.10/site-packages/webots_ros2_turtlebot
+[2.591s] byte-compiling /home/emannavarro/slam-kalman-localization/install/webots_ros2_turtlebot/lib/python3.10/site-packages/webots_ros2_turtlebot/plugin_example.py to plugin_example.cpython-310.pyc
+[2.592s] byte-compiling /home/emannavarro/slam-kalman-localization/install/webots_ros2_turtlebot/lib/python3.10/site-packages/webots_ros2_turtlebot/__init__.py to __init__.cpython-310.pyc
+[2.592s] running install_data
+[2.593s] creating /home/emannavarro/slam-kalman-localization/install/webots_ros2_turtlebot/share/ament_index
+[2.593s] creating /home/emannavarro/slam-kalman-localization/install/webots_ros2_turtlebot/share/ament_index/resource_index
+[2.593s] creating /home/emannavarro/slam-kalman-localization/install/webots_ros2_turtlebot/share/ament_index/resource_index/packages
+[2.593s] copying resource/webots_ros2_turtlebot -> /home/emannavarro/slam-kalman-localization/install/webots_ros2_turtlebot/share/ament_index/resource_index/packages
+[2.593s] creating /home/emannavarro/slam-kalman-localization/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/launch
+[2.594s] copying launch/robot_launch.py -> /home/emannavarro/slam-kalman-localization/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/launch
+[2.594s] creating /home/emannavarro/slam-kalman-localization/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[2.594s] copying resource/turtlebot3_burger_example_map.pgm -> /home/emannavarro/slam-kalman-localization/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[2.594s] copying resource/turtlebot3_burger_example_map.yaml -> /home/emannavarro/slam-kalman-localization/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[2.594s] copying resource/turtlebot_webots.urdf -> /home/emannavarro/slam-kalman-localization/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[2.594s] copying resource/ros2control.yml -> /home/emannavarro/slam-kalman-localization/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[2.595s] copying resource/nav2_params.yaml -> /home/emannavarro/slam-kalman-localization/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[2.595s] creating /home/emannavarro/slam-kalman-localization/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/worlds
+[2.595s] copying worlds/turtlebot3_burger_example.wbt -> /home/emannavarro/slam-kalman-localization/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/worlds
+[2.595s] copying worlds/.turtlebot3_burger_example.wbproj -> /home/emannavarro/slam-kalman-localization/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/worlds
+[2.595s] copying package.xml -> /home/emannavarro/slam-kalman-localization/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot
+[2.595s] running install_egg_info
+[2.597s] Copying ../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info to /home/emannavarro/slam-kalman-localization/install/webots_ros2_turtlebot/lib/python3.10/site-packages/webots_ros2_turtlebot-2023.1.3-py3.10.egg-info
+[2.598s] running install_scripts
+[2.620s] writing list of installed files to '/home/emannavarro/slam-kalman-localization/build/webots_ros2_turtlebot/install.log'
+[2.647s] Invoked command in '/home/emannavarro/slam-kalman-localization/src/webots_ros2/webots_ros2_turtlebot' returned '0': AMENT_PREFIX_PATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_control:/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver:/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs:/home/emannavarro/slam-kalman-localization/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_control:/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver:/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs LD_LIBRARY_PATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_control/lib:/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/lib:/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/emannavarro/slam-kalman-localization/build/webots_ros2_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emannavarro/slam-kalman-localization/install/webots_ros2_turtlebot/lib/python3.10/site-packages:/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/emannavarro/slam-kalman-localization/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/webots_ros2_turtlebot build --build-base /home/emannavarro/slam-kalman-localization/build/webots_ros2_turtlebot/build install --record /home/emannavarro/slam-kalman-localization/build/webots_ros2_turtlebot/install.log --single-version-externally-managed install_data

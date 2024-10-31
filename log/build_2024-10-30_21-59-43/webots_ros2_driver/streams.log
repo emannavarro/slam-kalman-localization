@@ -1,0 +1,405 @@
+[0.214s] Invoking command in '/home/emannavarro/slam-kalman-localization/build/webots_ros2_driver': AMENT_PREFIX_PATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs:/home/emannavarro/slam-kalman-localization/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/emannavarro/slam-kalman-localization/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/emannavarro/slam-kalman-localization/src/webots_ros2/webots_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver
+[0.359s] -- The C compiler identification is GNU 11.4.0
+[0.921s] -- The CXX compiler identification is GNU 11.4.0
+[1.383s] -- Detecting C compiler ABI info
+[1.538s] -- Detecting C compiler ABI info - done
+[1.545s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.545s] -- Detecting C compile features
+[1.545s] -- Detecting C compile features - done
+[1.548s] -- Detecting CXX compiler ABI info
+[1.724s] -- Detecting CXX compiler ABI info - done
+[1.732s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.732s] -- Detecting CXX compile features
+[1.732s] -- Detecting CXX compile features - done
+[1.734s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.878s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.962s] -- Found rosgraph_msgs: 1.2.1 (/opt/ros/humble/share/rosgraph_msgs/cmake)
+[2.168s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.173s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.181s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.193s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.209s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.244s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.321s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.327s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.245s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.236s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.979s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.994s] -- Looking for pthread.h
+[10.171s] -- Looking for pthread.h - found
+[10.172s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.362s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.363s] -- Found Threads: TRUE  
+[10.416s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[12.058s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[12.103s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[12.166s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[12.168s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[12.168s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[12.332s] -- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)
+[12.348s] -- Found webots_ros2_msgs: 2023.1.3 (/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake)
+[12.367s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[12.525s] -- Found Python: /usr/include/python3.10 (found suitable exact version "3.10.12") found components: Development Development.Module Development.Embed 
+[12.805s] -- Configuring done
+[12.842s] -- Generating done
+[12.845s] -- Build files have been written to: /home/emannavarro/slam-kalman-localization/build/webots_ros2_driver
+[12.858s] Invoked command in '/home/emannavarro/slam-kalman-localization/build/webots_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs:/home/emannavarro/slam-kalman-localization/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/emannavarro/slam-kalman-localization/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/emannavarro/slam-kalman-localization/src/webots_ros2/webots_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver
+[12.861s] Invoking command in '/home/emannavarro/slam-kalman-localization/build/webots_ros2_driver': AMENT_PREFIX_PATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs:/home/emannavarro/slam-kalman-localization/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/emannavarro/slam-kalman-localization/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/emannavarro/slam-kalman-localization/build/webots_ros2_driver -- -j8 -l8
+[12.922s] [  0%] Built target ament_cmake_python_copy_vehicle
+[12.923s] [  0%] Built target ament_cmake_python_copy_controller
+[12.927s] [  0%] Built target ament_cmake_python_copy_webots_ros2_driver
+[13.256s] running egg_info
+[13.257s] running egg_info
+[13.257s] creating controller.egg-info
+[13.257s] writing controller.egg-info/PKG-INFO
+[13.258s] writing dependency_links to controller.egg-info/dependency_links.txt
+[13.258s] creating vehicle.egg-info
+[13.258s] writing top-level names to controller.egg-info/top_level.txt
+[13.258s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[13.259s] writing vehicle.egg-info/PKG-INFO
+[13.259s] writing dependency_links to vehicle.egg-info/dependency_links.txt
+[13.259s] writing top-level names to vehicle.egg-info/top_level.txt
+[13.260s] writing manifest file 'vehicle.egg-info/SOURCES.txt'
+[13.261s] reading manifest file 'controller.egg-info/SOURCES.txt'
+[13.262s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[13.263s] reading manifest file 'vehicle.egg-info/SOURCES.txt'
+[13.264s] writing manifest file 'vehicle.egg-info/SOURCES.txt'
+[13.295s] running egg_info
+[13.296s] creating webots_ros2_driver.egg-info
+[13.297s] writing webots_ros2_driver.egg-info/PKG-INFO
+[13.297s] writing dependency_links to webots_ros2_driver.egg-info/dependency_links.txt
+[13.298s] writing top-level names to webots_ros2_driver.egg-info/top_level.txt
+[13.298s] [  0%] Built target ament_cmake_python_build_controller_egg
+[13.298s] writing manifest file 'webots_ros2_driver.egg-info/SOURCES.txt'
+[13.300s] reading manifest file 'webots_ros2_driver.egg-info/SOURCES.txt'
+[13.301s] writing manifest file 'webots_ros2_driver.egg-info/SOURCES.txt'
+[13.304s] [  0%] Built target ament_cmake_python_build_vehicle_egg
+[13.331s] [  0%] Built target ament_cmake_python_build_webots_ros2_driver_egg
+[33.024s] [  0%] Built target compile-lib-controller
+[33.388s] [  0%] Built target compile-generic-window
+[35.387s] [  0%] Built target compile-lib-vehicle
+[35.411s] [  7%] [32mBuilding CXX object CMakeFiles/driver.dir/src/WebotsNode.cpp.o[0m
+[35.411s] [ 11%] [32mBuilding CXX object CMakeFiles/webots_ros2_driver_imu.dir/src/plugins/dynamic/Ros2IMU.cpp.o[0m
+[35.412s] [ 11%] [32mBuilding CXX object CMakeFiles/webots_ros2_driver_rgbd.dir/src/plugins/dynamic/Ros2RGBD.cpp.o[0m
+[35.412s] [ 14%] [32mBuilding CXX object CMakeFiles/driver.dir/src/PythonPlugin.cpp.o[0m
+[35.412s] [ 22%] [32mBuilding CXX object CMakeFiles/webots_ros2_driver_imu.dir/src/plugins/Ros2SensorPlugin.cpp.o[0m
+[35.412s] [ 22%] [32mBuilding CXX object CMakeFiles/webots_ros2_driver_imu.dir/src/utils/Utils.cpp.o[0m
+[35.414s] [ 25%] [32mBuilding CXX object CMakeFiles/driver.dir/src/Driver.cpp.o[0m
+[35.416s] [ 29%] [32mBuilding CXX object CMakeFiles/webots_ros2_driver_rgbd.dir/src/plugins/Ros2SensorPlugin.cpp.o[0m
+[36.132s] [ 33%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/Ros2SensorPlugin.cpp.o[0m
+[42.855s] [ 37%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2Lidar.cpp.o[0m
+[42.938s] [ 40%] [32mBuilding CXX object CMakeFiles/webots_ros2_driver_rgbd.dir/src/utils/Utils.cpp.o[0m
+[43.352s] [ 44%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2LED.cpp.o[0m
+[43.535s] [ 48%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2Pen.cpp.o[0m
+[43.754s] [ 51%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2Camera.cpp.o[0m
+[44.103s] [ 55%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2GPS.cpp.o[0m
+[46.179s] [ 59%] [32m[1mLinking CXX shared library libwebots_ros2_driver_imu.so[0m
+[46.422s] [ 62%] [32m[1mLinking CXX shared library libwebots_ros2_driver_rgbd.so[0m
+[47.259s] [ 62%] Built target webots_ros2_driver_rgbd
+[47.274s] [ 62%] Built target webots_ros2_driver_imu
+[47.275s] [ 66%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2RangeFinder.cpp.o[0m
+[47.289s] [ 70%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2DistanceSensor.cpp.o[0m
+[55.722s] [ 74%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2LightSensor.cpp.o[0m
+[57.365s] [ 77%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2Emitter.cpp.o[0m
+[57.986s] [ 81%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2Receiver.cpp.o[0m
+[59.041s] [ 85%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2Compass.cpp.o[0m
+[59.122s] [ 88%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2VacuumGripper.cpp.o[0m
+[61.955s] [ 92%] [32mBuilding CXX object CMakeFiles/driver.dir/src/utils/Math.cpp.o[0m
+[63.655s] [ 96%] [32mBuilding CXX object CMakeFiles/driver.dir/src/utils/Utils.cpp.o[0m
+[73.609s] [100%] [32m[1mLinking CXX executable driver[0m
+[77.184s] [100%] Built target driver
+[77.196s] Invoked command in '/home/emannavarro/slam-kalman-localization/build/webots_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs:/home/emannavarro/slam-kalman-localization/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/emannavarro/slam-kalman-localization/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/emannavarro/slam-kalman-localization/build/webots_ros2_driver -- -j8 -l8
+[77.290s] Invoking command in '/home/emannavarro/slam-kalman-localization/build/webots_ros2_driver': AMENT_PREFIX_PATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs:/home/emannavarro/slam-kalman-localization/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/emannavarro/slam-kalman-localization/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/emannavarro/slam-kalman-localization/build/webots_ros2_driver
+[77.296s] -- Install configuration: ""
+[77.297s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/webots_ros2_driver/environment/pythonpath.sh
+[77.297s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/webots_ros2_driver/environment/pythonpath.dsv
+[77.297s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller-2023.1.3-py3.10.egg-info
+[77.298s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller-2023.1.3-py3.10.egg-info/PKG-INFO
+[77.298s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller-2023.1.3-py3.10.egg-info/dependency_links.txt
+[77.298s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller-2023.1.3-py3.10.egg-info/SOURCES.txt
+[77.298s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller-2023.1.3-py3.10.egg-info/top_level.txt
+[77.298s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller
+[77.299s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/mouse.py
+[77.299s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/light_sensor.py
+[77.299s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/gyro.py
+[77.299s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/led.py
+[77.300s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/distance_sensor.py
+[77.300s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/speaker.py
+[77.300s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/skin.py
+[77.300s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/touch_sensor.py
+[77.300s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/__init__.py
+[77.301s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/brake.py
+[77.301s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/inertial_unit.py
+[77.301s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/camera.py
+[77.301s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/vacuum_gripper.py
+[77.301s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/motion.py
+[77.301s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/radar.py
+[77.301s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/field.py
+[77.302s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/accelerometer.py
+[77.302s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/receiver.py
+[77.302s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/altimeter.py
+[77.302s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/constants.py
+[77.302s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/node.py
+[77.302s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/compass.py
+[77.302s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/range_finder.py
+[77.302s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/wb.py
+[77.302s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/radar_target.py
+[77.303s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/connector.py
+[77.303s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/emitter.py
+[77.303s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/robot.py
+[77.303s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/joystick.py
+[77.303s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/lidar.py
+[77.303s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/position_sensor.py
+[77.303s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/display.py
+[77.303s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/gps.py
+[77.303s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/pen.py
+[77.304s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/sensor.py
+[77.304s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/ansi_codes.py
+[77.304s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/lidar_point.py
+[77.304s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/device.py
+[77.304s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/keyboard.py
+[77.304s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/supervisor.py
+[77.304s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/motor.py
+[77.365s] Listing '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller'...
+[77.365s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/__init__.py'...
+[77.365s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/accelerometer.py'...
+[77.365s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/altimeter.py'...
+[77.365s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/ansi_codes.py'...
+[77.365s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/brake.py'...
+[77.365s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/camera.py'...
+[77.365s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/compass.py'...
+[77.365s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/connector.py'...
+[77.365s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/constants.py'...
+[77.365s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/device.py'...
+[77.366s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/display.py'...
+[77.366s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/distance_sensor.py'...
+[77.366s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/emitter.py'...
+[77.366s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/field.py'...
+[77.366s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/gps.py'...
+[77.366s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/gyro.py'...
+[77.366s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/inertial_unit.py'...
+[77.366s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/joystick.py'...
+[77.366s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/keyboard.py'...
+[77.366s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/led.py'...
+[77.366s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/lidar.py'...
+[77.366s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/lidar_point.py'...
+[77.366s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/light_sensor.py'...
+[77.366s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/motion.py'...
+[77.367s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/motor.py'...
+[77.367s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/mouse.py'...
+[77.367s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/node.py'...
+[77.367s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/pen.py'...
+[77.367s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/position_sensor.py'...
+[77.367s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/radar.py'...
+[77.367s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/radar_target.py'...
+[77.367s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/range_finder.py'...
+[77.367s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/receiver.py'...
+[77.367s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/robot.py'...
+[77.367s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/sensor.py'...
+[77.367s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/skin.py'...
+[77.367s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/speaker.py'...
+[77.367s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/supervisor.py'...
+[77.367s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/touch_sensor.py'...
+[77.368s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/vacuum_gripper.py'...
+[77.368s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/controller/wb.py'...
+[77.370s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle-2023.1.3-py3.10.egg-info
+[77.370s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle-2023.1.3-py3.10.egg-info/PKG-INFO
+[77.370s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle-2023.1.3-py3.10.egg-info/dependency_links.txt
+[77.370s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle-2023.1.3-py3.10.egg-info/SOURCES.txt
+[77.371s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle-2023.1.3-py3.10.egg-info/top_level.txt
+[77.371s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle
+[77.371s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle/car.py
+[77.371s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle/driver.py
+[77.371s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle/__init__.py
+[77.408s] Listing '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle'...
+[77.408s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle/__init__.py'...
+[77.408s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle/car.py'...
+[77.408s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/vehicle/driver.py'...
+[77.412s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver-2023.1.3-py3.10.egg-info
+[77.412s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver-2023.1.3-py3.10.egg-info/PKG-INFO
+[77.412s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver-2023.1.3-py3.10.egg-info/dependency_links.txt
+[77.412s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver-2023.1.3-py3.10.egg-info/SOURCES.txt
+[77.412s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver-2023.1.3-py3.10.egg-info/top_level.txt
+[77.413s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver
+[77.413s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/ros2_supervisor.py
+[77.413s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/utils.py
+[77.413s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/urdf_spawner.py
+[77.414s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/__init__.py
+[77.414s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/wait_for_controller_connection.py
+[77.414s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/webots_controller.py
+[77.414s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/webots_launcher.py
+[77.451s] Listing '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver'...
+[77.452s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/__init__.py'...
+[77.452s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/ros2_supervisor.py'...
+[77.452s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/urdf_spawner.py'...
+[77.452s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/utils.py'...
+[77.452s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/wait_for_controller_connection.py'...
+[77.452s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/webots_controller.py'...
+[77.452s] Compiling '/home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/local/lib/python3.10/dist-packages/webots_ros2_driver/webots_launcher.py'...
+[77.456s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include
+[77.456s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots_ros2_driver
+[77.457s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots_ros2_driver/PythonPlugin.hpp
+[77.457s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots_ros2_driver/plugins
+[77.457s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static
+[77.457s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Camera.hpp
+[77.457s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Emitter.hpp
+[77.458s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2DistanceSensor.hpp
+[77.458s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2LED.hpp
+[77.458s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2VacuumGripper.hpp
+[77.458s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Pen.hpp
+[77.459s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2RangeFinder.hpp
+[77.459s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2GPS.hpp
+[77.459s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2LightSensor.hpp
+[77.459s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Lidar.hpp
+[77.459s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Receiver.hpp
+[77.459s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Compass.hpp
+[77.460s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots_ros2_driver/plugins/dynamic
+[77.460s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots_ros2_driver/plugins/dynamic/Ros2IMU.hpp
+[77.460s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots_ros2_driver/plugins/dynamic/Ros2RGBD.hpp
+[77.460s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots_ros2_driver/plugins/Ros2SensorPlugin.hpp
+[77.461s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots_ros2_driver/utils
+[77.461s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots_ros2_driver/utils/Math.hpp
+[77.461s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots_ros2_driver/utils/Utils.hpp
+[77.461s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots_ros2_driver/WebotsNode.hpp
+[77.461s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots_ros2_driver/PluginInterface.hpp
+[77.461s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/lib/webots_ros2_driver/driver
+[77.473s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/lib/libwebots_ros2_driver_imu.so
+[77.475s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/lib/libwebots_ros2_driver_rgbd.so
+[77.477s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c
+[77.477s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots
+[77.478s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/compass.h
+[77.478s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/accelerometer.h
+[77.478s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/distance_sensor.h
+[77.478s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/motor.h
+[77.479s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/emitter.h
+[77.479s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/nodes.h
+[77.479s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/receiver.h
+[77.479s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/types.h
+[77.479s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/gyro.h
+[77.479s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/vehicle
+[77.480s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/vehicle/driver.h
+[77.480s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/vehicle/car.h
+[77.480s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/light_sensor.h
+[77.480s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/joystick.h
+[77.480s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/mouse_state.h
+[77.481s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/plugins
+[77.481s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window
+[77.481s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window/generic_robot_window
+[77.481s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window/generic_robot_window/generic.h
+[77.481s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window/default.h
+[77.482s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window/robot_window.h
+[77.482s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window/robot_wwi.h
+[77.482s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/lidar.h
+[77.482s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/display.h
+[77.482s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/supervisor.h
+[77.483s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/inertial_unit.h
+[77.483s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/range_finder.h
+[77.483s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/contact_point.h
+[77.483s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/camera_recognition_object.h
+[77.483s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/skin.h
+[77.483s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/utils
+[77.484s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/utils/system.h
+[77.484s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/utils/string.h
+[77.484s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/utils/motion.h
+[77.484s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/utils/ansi_codes.h
+[77.484s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/speaker.h
+[77.484s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/lidar_point.h
+[77.484s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/vacuum_gripper.h
+[77.485s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/pen.h
+[77.485s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/radar_target.h
+[77.485s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/keyboard.h
+[77.485s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/radar.h
+[77.485s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/connector.h
+[77.486s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/radio.h
+[77.486s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/position_sensor.h
+[77.486s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/remote_control.h
+[77.486s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/camera.h
+[77.486s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/robot.h
+[77.487s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/mouse.h
+[77.487s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/microphone.h
+[77.487s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/brake.h
+[77.487s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/gps.h
+[77.487s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/device.h
+[77.487s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/led.h
+[77.487s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/altimeter.h
+[77.488s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/touch_sensor.h
+[77.488s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/c/webots/console.h
+[77.488s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp
+[77.488s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots
+[77.488s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/Accelerometer.hpp
+[77.489s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/Pen.hpp
+[77.489s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/Speaker.hpp
+[77.489s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/InertialUnit.hpp
+[77.489s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/Brake.hpp
+[77.489s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/vehicle
+[77.489s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/vehicle/Driver.hpp
+[77.490s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/vehicle/Car.hpp
+[77.490s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/ImageRef.hpp
+[77.490s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/Joystick.hpp
+[77.490s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/Keyboard.hpp
+[77.490s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/Node.hpp
+[77.490s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/Supervisor.hpp
+[77.490s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/Skin.hpp
+[77.491s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/Motor.hpp
+[77.491s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/Robot.hpp
+[77.491s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/Mouse.hpp
+[77.491s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/Display.hpp
+[77.491s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/VacuumGripper.hpp
+[77.492s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/Altimeter.hpp
+[77.492s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/Emitter.hpp
+[77.492s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/Lidar.hpp
+[77.492s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/TouchSensor.hpp
+[77.492s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/utils
+[77.492s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/utils/Motion.hpp
+[77.493s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/utils/AnsiCodes.hpp
+[77.493s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/Gyro.hpp
+[77.493s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/Receiver.hpp
+[77.493s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/Device.hpp
+[77.493s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/LED.hpp
+[77.493s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/Connector.hpp
+[77.493s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/Field.hpp
+[77.493s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/Radar.hpp
+[77.493s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/Compass.hpp
+[77.493s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/GPS.hpp
+[77.494s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/RangeFinder.hpp
+[77.494s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/Camera.hpp
+[77.494s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/LightSensor.hpp
+[77.494s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/PositionSensor.hpp
+[77.494s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/include/webots/cpp/webots/DistanceSensor.hpp
+[77.494s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/lib/controller
+[77.494s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/lib/controller/libdriver.so
+[77.494s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/lib/controller/libCppController.so
+[77.494s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/lib/controller/libgeneric_robot_window.so
+[77.494s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/lib/controller/.gitignore
+[77.494s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/lib/controller/libController.so
+[77.495s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/lib/controller/libCppCar.so
+[77.495s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/lib/controller/libcar.so
+[77.495s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/lib/controller/libCppDriver.so
+[77.495s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/webots_ros2_driver/webots_ros2_imu.xml
+[77.496s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/webots_ros2_driver/webots_ros2_rgbd.xml
+[77.496s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/lib/webots_ros2_driver/ros2_supervisor.py
+[77.496s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/webots_ros2_driver/scripts
+[77.496s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/webots_ros2_driver/scripts/webots_tcp_client.py
+[77.496s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/webots_ros2_driver/scripts/webots-controller
+[77.497s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/webots_ros2_driver/environment/library_path.sh
+[77.497s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/webots_ros2_driver/environment/library_path.dsv
+[77.497s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/ament_index/resource_index/package_run_dependencies/webots_ros2_driver
+[77.498s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/ament_index/resource_index/parent_prefix_path/webots_ros2_driver
+[77.498s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/webots_ros2_driver/environment/ament_prefix_path.sh
+[77.498s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/webots_ros2_driver/environment/ament_prefix_path.dsv
+[77.498s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/webots_ros2_driver/environment/path.sh
+[77.499s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/webots_ros2_driver/environment/path.dsv
+[77.499s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/webots_ros2_driver/local_setup.bash
+[77.499s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/webots_ros2_driver/local_setup.sh
+[77.499s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/webots_ros2_driver/local_setup.zsh
+[77.499s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/webots_ros2_driver/local_setup.dsv
+[77.500s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/webots_ros2_driver/package.dsv
+[77.500s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/ament_index/resource_index/packages/webots_ros2_driver
+[77.500s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/ament_index/resource_index/webots_ros2_driver__pluginlib__plugin/webots_ros2_driver
+[77.500s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/webots_ros2_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[77.500s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/webots_ros2_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[77.501s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/webots_ros2_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[77.501s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/webots_ros2_driver/cmake/webots_ros2_driverConfig.cmake
+[77.501s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/webots_ros2_driver/cmake/webots_ros2_driverConfig-version.cmake
+[77.501s] -- Installing: /home/emannavarro/slam-kalman-localization/install/webots_ros2_driver/share/webots_ros2_driver/package.xml
+[77.504s] Invoked command in '/home/emannavarro/slam-kalman-localization/build/webots_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs:/home/emannavarro/slam-kalman-localization/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/emannavarro/slam-kalman-localization/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/emannavarro/slam-kalman-localization/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/emannavarro/slam-kalman-localization/build/webots_ros2_driver
