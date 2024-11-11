@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<robot name="vehicle">
+    <webots>
+        <!-- Lidar Device Configuration -->
+        <device reference="lidar" type="Lidar">
+            <ros>
+			    <alwaysOn>true</alwaysOn>
+                <topicName>/lidar/points</topicName>
+            </ros>
+        </device>
+
+        <!-- Plugin Configuration for Tesla -->
+        <plugin type="webots_ros2_tesla.tesla_driver.TeslaDriver" />
+    </webots>
+</robot>
