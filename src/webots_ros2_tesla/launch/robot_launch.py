@@ -1,4 +1,4 @@
-#!/usr/bin/env python 
+#!/usr/bin/env python
 
 import os
 import launch
@@ -63,6 +63,8 @@ def generate_launch_description():
             'range_min': 0.1,
             'range_max': 250.0,
             'scan_time': 0.1
+#            'input_topic': "/pointcloud",
+#            'output_topic': "/scan"
         }]
     )
 
