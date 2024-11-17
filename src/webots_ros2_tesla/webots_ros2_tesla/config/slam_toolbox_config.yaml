@@ -1,0 +1,16 @@
+slam_toolbox:
+  ros__parameters:
+    use_sim_time: true                 # Ensure simulation time is used
+    map_topic: /map
+    scan_topic: /scan
+    map_update_interval: 1.0           # Update interval for the map
+    map_publish_period: 1.0            # Frequency of map publishing
+    resolution: 0.1                    # Adjust resolution as needed
+    max_laser_range: 250.0             # Maximum lidar range for map generation
+    min_laser_range: 0.1               # Minimum lidar range
+    publish_map: true
+    publish_pose: true
+    mode: "mapping"
+    map_frame: map
+    base_frame: base_link
+    queue_size: 20                     # Increase queue size for data handling
