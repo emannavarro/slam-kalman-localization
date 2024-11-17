@@ -43,6 +43,14 @@ def generate_launch_description():
         output='screen'
     )
 
+    # Odometry publisher node
+    odometry_publisher = Node(
+        package='webots_ros2_tesla',
+        executable='odometry_publisher',
+        name='odometry_publisher',
+        output='screen'
+    )
+
     # PointCloud2 to LaserScan conversion node
     pointcloud_to_laserscan = Node(
         package='pointcloud_to_laserscan',
@@ -102,6 +110,7 @@ def generate_launch_description():
         tesla_driver,
         lane_follower,
         lidar_publisher,
+        odometry_publisher,  # Add the odometry publisher node here
         pointcloud_to_laserscan,
         slam_toolbox,  # Only launches if slam:=true
         static_transform_publisher,  # Add the static transform publisher here

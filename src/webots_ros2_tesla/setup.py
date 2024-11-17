@@ -47,13 +47,14 @@ setup(
         'Programming Language :: Python',
         'Topic :: Software Development',
     ],
-    description='Tesla ROS2 interface for Webots.',
+    description='Tesla ROS2 interface for Webots with lidar, odometry, and SLAM support.',
     license='Apache License, Version 2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             'lane_follower = webots_ros2_tesla.lane_follower:main',
-            'lidar_publisher = webots_ros2_tesla.lidar_publisher:main'
+            'lidar_publisher = webots_ros2_tesla.lidar_publisher:main',
+            'odometry_publisher = webots_ros2_tesla.odometry_publisher:main'  # Added odometry publisher script
         ],
         'launch.frontend.launch_extension': ['launch_ros = launch_ros']
     }
