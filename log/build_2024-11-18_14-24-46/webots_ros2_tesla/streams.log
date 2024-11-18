@@ -1,0 +1,61 @@
+[0.348s] Invoking command in '/home/alizarg/slam-kalman-localization/src/webots_ros2_tesla': PYTHONPATH=/home/alizarg/slam-kalman-localization/build/webots_ros2_tesla/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_ros2_tesla build --build-base /home/alizarg/slam-kalman-localization/build/webots_ros2_tesla/build install --record /home/alizarg/slam-kalman-localization/build/webots_ros2_tesla/install.log --single-version-externally-managed install_data
+[0.483s] running egg_info
+[0.483s] creating ../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info
+[0.483s] writing ../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info/PKG-INFO
+[0.483s] writing dependency_links to ../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info/dependency_links.txt
+[0.484s] writing entry points to ../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info/entry_points.txt
+[0.484s] writing requirements to ../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info/requires.txt
+[0.484s] writing top-level names to ../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info/top_level.txt
+[0.484s] writing manifest file '../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info/SOURCES.txt'
+[0.485s] reading manifest file '../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info/SOURCES.txt'
+[0.485s] writing manifest file '../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info/SOURCES.txt'
+[0.485s] running build
+[0.485s] running build_py
+[0.485s] creating /home/alizarg/slam-kalman-localization/build/webots_ros2_tesla/build
+[0.485s] creating /home/alizarg/slam-kalman-localization/build/webots_ros2_tesla/build/lib
+[0.486s] creating /home/alizarg/slam-kalman-localization/build/webots_ros2_tesla/build/lib/webots_ros2_tesla
+[0.486s] copying webots_ros2_tesla/kf_node.py -> /home/alizarg/slam-kalman-localization/build/webots_ros2_tesla/build/lib/webots_ros2_tesla
+[0.486s] copying webots_ros2_tesla/odometry_publisher.py -> /home/alizarg/slam-kalman-localization/build/webots_ros2_tesla/build/lib/webots_ros2_tesla
+[0.486s] copying webots_ros2_tesla/lidar_publisher.py -> /home/alizarg/slam-kalman-localization/build/webots_ros2_tesla/build/lib/webots_ros2_tesla
+[0.486s] copying webots_ros2_tesla/tesla_driver.py -> /home/alizarg/slam-kalman-localization/build/webots_ros2_tesla/build/lib/webots_ros2_tesla
+[0.486s] copying webots_ros2_tesla/lane_follower.py -> /home/alizarg/slam-kalman-localization/build/webots_ros2_tesla/build/lib/webots_ros2_tesla
+[0.486s] copying webots_ros2_tesla/__init__.py -> /home/alizarg/slam-kalman-localization/build/webots_ros2_tesla/build/lib/webots_ros2_tesla
+[0.486s] running install
+[0.486s] running install_lib
+[0.487s] creating /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/lib/python3.10/site-packages/webots_ros2_tesla
+[0.487s] copying /home/alizarg/slam-kalman-localization/build/webots_ros2_tesla/build/lib/webots_ros2_tesla/kf_node.py -> /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/lib/python3.10/site-packages/webots_ros2_tesla
+[0.487s] copying /home/alizarg/slam-kalman-localization/build/webots_ros2_tesla/build/lib/webots_ros2_tesla/odometry_publisher.py -> /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/lib/python3.10/site-packages/webots_ros2_tesla
+[0.487s] copying /home/alizarg/slam-kalman-localization/build/webots_ros2_tesla/build/lib/webots_ros2_tesla/lidar_publisher.py -> /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/lib/python3.10/site-packages/webots_ros2_tesla
+[0.487s] copying /home/alizarg/slam-kalman-localization/build/webots_ros2_tesla/build/lib/webots_ros2_tesla/tesla_driver.py -> /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/lib/python3.10/site-packages/webots_ros2_tesla
+[0.487s] copying /home/alizarg/slam-kalman-localization/build/webots_ros2_tesla/build/lib/webots_ros2_tesla/lane_follower.py -> /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/lib/python3.10/site-packages/webots_ros2_tesla
+[0.487s] copying /home/alizarg/slam-kalman-localization/build/webots_ros2_tesla/build/lib/webots_ros2_tesla/__init__.py -> /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/lib/python3.10/site-packages/webots_ros2_tesla
+[0.487s] byte-compiling /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/lib/python3.10/site-packages/webots_ros2_tesla/kf_node.py to kf_node.cpython-310.pyc
+[0.488s] byte-compiling /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/lib/python3.10/site-packages/webots_ros2_tesla/odometry_publisher.py to odometry_publisher.cpython-310.pyc
+[0.488s] byte-compiling /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/lib/python3.10/site-packages/webots_ros2_tesla/lidar_publisher.py to lidar_publisher.cpython-310.pyc
+[0.489s] byte-compiling /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/lib/python3.10/site-packages/webots_ros2_tesla/tesla_driver.py to tesla_driver.cpython-310.pyc
+[0.489s] byte-compiling /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/lib/python3.10/site-packages/webots_ros2_tesla/lane_follower.py to lane_follower.cpython-310.pyc
+[0.489s] byte-compiling /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/lib/python3.10/site-packages/webots_ros2_tesla/__init__.py to __init__.cpython-310.pyc
+[0.489s] running install_data
+[0.489s] creating /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/share/ament_index
+[0.489s] creating /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/share/ament_index/resource_index
+[0.490s] creating /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/share/ament_index/resource_index/packages
+[0.490s] copying resource/webots_ros2_tesla -> /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/share/ament_index/resource_index/packages
+[0.490s] creating /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/share/webots_ros2_tesla/launch
+[0.490s] copying launch/robot_launch.py -> /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/share/webots_ros2_tesla/launch
+[0.490s] creating /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/share/webots_ros2_tesla/worlds
+[0.490s] copying worlds/tesla_world.wbt -> /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/share/webots_ros2_tesla/worlds
+[0.490s] copying worlds/.tesla_world.wbproj -> /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/share/webots_ros2_tesla/worlds
+[0.490s] creating /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/share/webots_ros2_tesla/resource
+[0.490s] copying resource/tesla_webots.urdf -> /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/share/webots_ros2_tesla/resource
+[0.490s] creating /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/share/webots_ros2_tesla/config
+[0.490s] copying config/slam_toolbox_config.yaml -> /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/share/webots_ros2_tesla/config
+[0.490s] copying package.xml -> /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/share/webots_ros2_tesla
+[0.490s] running install_egg_info
+[0.491s] Copying ../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info to /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/lib/python3.10/site-packages/webots_ros2_tesla-2023.1.3-py3.10.egg-info
+[0.492s] running install_scripts
+[0.504s] Installing kf_node script to /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/lib/webots_ros2_tesla
+[0.504s] Installing lane_follower script to /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/lib/webots_ros2_tesla
+[0.504s] Installing lidar_publisher script to /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/lib/webots_ros2_tesla
+[0.504s] Installing odometry_publisher script to /home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/lib/webots_ros2_tesla
+[0.504s] writing list of installed files to '/home/alizarg/slam-kalman-localization/build/webots_ros2_tesla/install.log'
+[0.517s] Invoked command in '/home/alizarg/slam-kalman-localization/src/webots_ros2_tesla' returned '0': PYTHONPATH=/home/alizarg/slam-kalman-localization/build/webots_ros2_tesla/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alizarg/slam-kalman-localization/install/webots_ros2_tesla/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_ros2_tesla build --build-base /home/alizarg/slam-kalman-localization/build/webots_ros2_tesla/build install --record /home/alizarg/slam-kalman-localization/build/webots_ros2_tesla/install.log --single-version-externally-managed install_data

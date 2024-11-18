@@ -1,0 +1,9 @@
+[console_scripts]
+kf_node = webots_ros2_tesla.kf_node:main
+lane_follower = webots_ros2_tesla.lane_follower:main
+lidar_publisher = webots_ros2_tesla.lidar_publisher:main
+odometry_publisher = webots_ros2_tesla.odometry_publisher:main
+
+[launch.frontend.launch_extension]
+launch_ros = launch_ros
+
