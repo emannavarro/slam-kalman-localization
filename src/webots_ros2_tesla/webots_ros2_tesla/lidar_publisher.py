@@ -1,5 +1,6 @@
 import rclpy
 from rclpy.node import Node
+from rclpy.qos import QoSProfile, QoSReliabilityPolicy, QoSHistoryPolicy
 from sensor_msgs.msg import PointCloud2, PointField, LaserScan
 import sensor_msgs_py.point_cloud2 as pc2
 import numpy as np
@@ -7,17 +8,25 @@ import numpy as np
 class LidarPublisher(Node):
     def __init__(self):
         super().__init__('lidar_publisher')
-        
-        # Publisher for PointCloud2 data
-        self.publisher_ = self.create_publisher(PointCloud2, '/lidar/points/point_cloud', 5)
+
+        # Create a QoSProfile with RELIABLE reliability
+        qos_profile = QoSProfile(
+            reliability=QoSReliabilityPolicy.RELIABLE,
+            history=QoSHistoryPolicy.KEEP_LAST,
+            depth=10
+        )
+
+        # Publisher for PointCloud2 data with the specified QoS profile
+        self.publisher_ = self.create_publisher(PointCloud2, '/lidar/points/point_cloud', qos_profile)
         self.get_logger().info("Initialized LidarPublisher node")
 
         # Subscription to the Webots Lidar data (assuming it's published as LaserScan)
+        # Using the same QoS profile to ensure compatibility
         self.subscription = self.create_subscription(
             LaserScan,
             '/webots/lidar',  # Update if this topic name is different
             self.lidar_callback,
-            10
+            qos_profile
         )
         self.get_logger().info("Subscribed to /webots/lidar")
 
@@ -59,6 +68,7 @@ def main(args=None):
     rclpy.init(args=args)
     lidar_publisher = LidarPublisher()
     rclpy.spin(lidar_publisher)
+#   lidar_publisher.destroy_node()
     rclpy.shutdown()
 
 if __name__ == '__main__':

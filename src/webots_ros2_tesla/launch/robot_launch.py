@@ -1,4 +1,4 @@
-#!/usr/bin/env python 
+#!/usr/bin/env python
 
 import os
 import launch
@@ -85,6 +85,15 @@ def generate_launch_description():
         arguments=['--ros-args', '--log-level', 'debug']
     )
 
+    # Kalman Filter node
+    kf_node = Node(
+        package='webots_ros2_tesla',
+        executable='kf_node',
+        name='kf_node',
+        output='screen'
+    )
+
+
     # Static transform publisher (base_link to lidar)
     static_transform_publisher = Node(
         package='tf2_ros',
@@ -114,7 +123,7 @@ def generate_launch_description():
         pointcloud_to_laserscan,
         slam_toolbox,  # Only launches if slam:=true
         static_transform_publisher,  # Add the static transform publisher here
-
+        kf_node,
         # Shutdown action on Webots exit
         launch.actions.RegisterEventHandler(
             event_handler=launch.event_handlers.OnProcessExit(
