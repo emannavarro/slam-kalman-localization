@@ -56,6 +56,7 @@ setup(
             'lidar_publisher = webots_ros2_tesla.lidar_publisher:main',
             'odometry_publisher = webots_ros2_tesla.odometry_publisher:main',  # Added odometry publisher script
             'kf_node = webots_ros2_tesla.kf_node:main',  # Added KF node
+            'obstacle_avoidance = tesla_autopilot.obstacle_avoidance_node:main'
         ],
         'launch.frontend.launch_extension': ['launch_ros = launch_ros']
     }
