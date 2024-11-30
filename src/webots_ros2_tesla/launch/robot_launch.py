@@ -93,6 +93,13 @@ def generate_launch_description():
         output='screen'
     )
 
+    #obstacle_avoidance_node = Node(
+     #   package='webots_ros2_tesla',
+    #    executable='obstacle_avoidance',
+     #   name='obstacle_avoidance_node',
+    #    output='screen'
+   # )
+
 
     # Static transform publisher (base_link to lidar)
     static_transform_publisher = Node(
@@ -118,6 +125,7 @@ def generate_launch_description():
         webots._supervisor,
         tesla_driver,
         lane_follower,
+        #obstacle_avoidance_node,
         lidar_publisher,
         odometry_publisher,  # Add the odometry publisher node here
         pointcloud_to_laserscan,
