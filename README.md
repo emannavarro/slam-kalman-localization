@@ -47,7 +47,7 @@ git clone git@github.com:emannavarro/slam-kalman-localization.git
  ```bash
  ros2 launch webots_ros2_tesla robot_launch.py slam:=true
  ```
-4. optional add these aliases in your ~/.bashrc file
+4. optional add these aliases in your ~/.bashrc file.
 ```bash
 alias kalman='ros2 launch webots_ros2_tesla robot_launch.py'
 alias fastbuild='colcon build --parallel-workers $(nproc)'
