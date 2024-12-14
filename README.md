@@ -33,6 +33,6 @@ To get a local copy of the project, you can clone the repository and initialize 
 
 
 ```bash
-git clone --recurse-submodules git@github.com:emannavarro/slam-kalman-localization.git
+git clone git@github.com:emannavarro/slam-kalman-localization.git
 ```
 
