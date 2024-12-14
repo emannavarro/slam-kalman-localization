@@ -19,7 +19,6 @@ This project addresses the challenge of simulating real-time SLAM with noisy sen
 1. **Robot Models**: Testing with Differential drive and Ackerman models to evaluate the influence of kinematics on SLAM performance.
 2. **Sensor Data Processing**: Lidar serves as the primary environmental sensor, with camera data integrated to enhance spatial representation. The Kalman filter will merge data from both sources to provide accurate, noise-resistant position estimations.
 3. **Simulation Environments**: Testing will occur in both indoor and outdoor terrains to observe SLAM performance across various surfaces.
-4. **Validation**: We will compare the robot’s predicted position and generated map with ground truth data, benchmarking real-time performance to evaluate accuracy and efficiency.
 
 
 
@@ -35,4 +34,24 @@ To get a local copy of the project, you can clone the repository and initialize 
 ```bash
 git clone git@github.com:emannavarro/slam-kalman-localization.git
 ```
+### Launching The Project 
+ 1. First build the project by running the following build command from the directory '/slam-kalman-localization'.
+ ```bash
+ colcon build --parallel-workers $(nproc)
+ ```
+ 2. Next source the package to launch the project.
+ ```bash
+ source install/local_setup.bash
+ ```
+ 3. Finally launch the project by running the following comand line.
+ ```bash
+ ros2 launch webots_ros2_tesla robot_launch.py slam:=true
+ ```
+4. optional add these aliases in your ~/.bashrc file
+```bash
+alias kalman='ros2 launch webots_ros2_tesla robot_launch.py'
+alias fastbuild='colcon build --parallel-workers $(nproc)'
+alias prelaunch='source install/local_setup.bash'
+alias cleanbuild='rm -rf build/ install/ log/'
+ ```
 
